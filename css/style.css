@@ -37,7 +37,7 @@ body {
     background-color: #151515;
 }
 
-.header-main {
+.header .header-main {
     background-color: transparent;
 }
 
@@ -61,3 +61,7 @@ body {
 }
 
 /* styling header end */
+
+/* styling footer start */
+
+/* styling footer end */
