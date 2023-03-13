@@ -3,7 +3,7 @@ html {
 }
 
 html,
-body{
+body {
     height: 100%;
 }
 
@@ -74,6 +74,39 @@ body {
 
 /* styling header end */
 
+/* main start */
+
+/* styling section top start */
+
+.main {
+    flex-grow: 1;
+}
+
+.top {
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    padding-top: 105px;
+    padding-bottom: 40px;
+    font-size: 96px;
+    font-weight: 700;
+
+}
+
+.top__link {
+    background-color: #151515;
+    padding: 23px;
+    max-width: 430px;
+    display: inline-block;
+}
+
+
+/* styling section top end */
+
+/* main end */
+
 /* styling footer start */
 
 .footer {
@@ -122,7 +155,3 @@ body {
 }
 
 /* styling footer end */
-
-.main {
-    flex-grow: 1;
-}
