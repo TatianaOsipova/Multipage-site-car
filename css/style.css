@@ -114,8 +114,19 @@ body {
     font-weight: 700;
 }
 
-.swiper-wrapper {
+.swiper::after {
+    content: '';
     background-color: rgba(21, 21, 21, .6);
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.swiper-wrapper {
+    
 }
 
 .swiper-slide {
@@ -131,7 +142,15 @@ body {
     background-color: #151515;
     border-radius: 0;
     opacity: 1;
-    margin: 0 15px !important;
+}
+
+.swiper-pagination-horizontal.swiper-pagination-bullets 
+.swiper-pagination-bullet {
+    margin: 0 15px;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 50px;
 }
 
 .swiper-pagination-bullet-active {
