@@ -258,13 +258,20 @@ body {
 .video {
     padding-bottom: 150px;
 }
-.section-title {
-}
+
 .video__title {
     margin-bottom: 20px;
 }
+
 .video__text {
-    
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.video__content{
+    margin: 0 auto;
 }
 
 /* styling section video end */
