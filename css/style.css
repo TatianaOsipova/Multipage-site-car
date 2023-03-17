@@ -251,13 +251,23 @@ body {
     top: 0;
 }
 
-
-
-
-
-
 /* styling section how-does end */
 
+/* styling section video start */
+
+.video {
+    padding-bottom: 150px;
+}
+.section-title {
+}
+.video__title {
+    margin-bottom: 20px;
+}
+.video__text {
+    
+}
+
+/* styling section video end */
 
 /* main end */
 
