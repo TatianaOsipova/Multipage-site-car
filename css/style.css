@@ -271,6 +271,7 @@ body {
 }
 
 .video__content{
+    display: block;
     margin: 0 auto;
 }
 
