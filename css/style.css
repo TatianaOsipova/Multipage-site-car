@@ -266,12 +266,33 @@ body {
     text-align: center;
 }
 
-.video__content{
+.video__content {
     display: block;
     margin: 0 auto;
 }
 
 /* styling section video end */
+
+/* styling section important start */
+
+.important {}
+
+.section-title {}
+
+.important__title {}
+
+.important__text {}
+
+.important__list {}
+
+.important__item {}
+
+.important__item-img {}
+
+.important__item-text {}
+
+
+/* styling section important end */
 
 /* main end */
 
