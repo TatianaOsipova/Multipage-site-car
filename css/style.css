@@ -59,7 +59,7 @@ body {
 .header-main {
     background-color: transparent;
     position: absolute;
-    z-index: 5;
+    z-index: 10;
     left: 0;
     right: 0;
 }
@@ -275,22 +275,27 @@ body {
 
 /* styling section important start */
 
-.important {}
+.important {
+    padding-bottom: 150px;
+}
 
-.section-title {}
+.important__title {
+    margin-bottom: 20px;
+}
 
-.important__title {}
+.important__text {
+    max-width: 580px;
+    margin: 0 auto 50px;
+}
 
-.important__text {}
+.important__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 
-.important__list {}
-
-.important__item {}
-
-.important__item-img {}
-
-.important__item-text {}
-
+.important__item-img {
+    margin-bottom: 20px;
+}
 
 /* styling section important end */
 
