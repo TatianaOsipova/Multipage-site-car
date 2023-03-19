@@ -381,6 +381,28 @@ body {
 
 /* styling section contacts end */
 
+/* styling section blog start */
+
+.blog {
+    padding-bottom: 150px;
+}
+
+.blog__items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.blog__item {}
+
+.blog__item-img {}
+
+.blog__item-title {}
+
+.blog__item-link {}
+
+/* styling section blog end */
+
 /* main end */
 
 /* styling footer start */
