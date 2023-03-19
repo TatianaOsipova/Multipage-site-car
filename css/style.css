@@ -345,7 +345,7 @@ body {
 }
 
 .form__input::placeholder,
-.form__textarea::placeholder  {
+.form__textarea::placeholder {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -378,7 +378,6 @@ body {
     padding: 15px 61px;
     margin: 0 auto;
 }
-
 
 /* styling section contacts end */
 
