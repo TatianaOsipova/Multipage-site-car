@@ -81,6 +81,12 @@ body {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
+    transition: all .3s ease-in-out ;
+}
+
+.menu__list-link:hover{
+    color: rgba(0, 102, 255, 1);
+    transition: all .3s ease-in-out;
 }
 
 /* styling header end */
