@@ -110,11 +110,11 @@ body {
     right: 0;
 }
 
-.top__link{
+.top__link {
     transition: all .5s ease-in-out;
 }
 
-.top__link:hover{
+.top__link:hover {
     background-color: #0066ff;
     transition: all .5s ease-in-out;
 }
@@ -408,6 +408,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+    margin-bottom: 83px;
 }
 
 .blog__item {
@@ -435,8 +436,23 @@ body {
     transition: all .5s ease-in-out;
 }
 
-.blog__item-link:hover{
+.blog__item-link:hover {
     background-color: #151515;
+    transition: all .5s ease-in-out;
+}
+
+.showmore-link {
+    background-color: #151515;
+    color: #fff;
+    padding: 13px 61px;
+    text-transform: uppercase;
+    /* align-items: center;
+    margin: 0 auto; */
+    transition: all .5s ease-in-out;
+}
+
+.showmore-link:hover {
+    background-color: #0066ff;
     transition: all .5s ease-in-out;
 }
 
