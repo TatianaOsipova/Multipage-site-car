@@ -348,9 +348,13 @@ body {
 }
 
 .tabs__content-item {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     gap: 100px 40px;
+}
+
+.tabs__content-item.tabs__content-item--active {
+    display: grid;
 }
 
 .card {
@@ -382,7 +386,7 @@ body {
 }
 
 .card__link {
-    padding: 0px 94px;    
+    padding: 0px 94px;
     border: 1px solid #0066ff;
     text-transform: lowercase;
     margin-bottom: 20px;
