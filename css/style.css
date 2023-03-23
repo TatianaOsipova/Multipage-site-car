@@ -675,6 +675,36 @@ body {
 }
 
 @media (max-width: 768px) {
+    .title {
+        font-size: 70px;
+    }
+
+    .top__link {
+        padding: 16px;
+        font-size: 28px;
+        max-width: 360px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 60px;
+    }
+
+    .swiper-pagination-bullet-active {
+        height: 4px;
+    }
+
+    .video__content {
+        height: 400px;
+    }
+
+    .footer__menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (max-width: 540px){
     
 
 }
