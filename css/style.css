@@ -595,6 +595,24 @@ body {
 
 /* styling footer end */
 
+.menu__btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.menu__btn span {
+    height: 2px;
+    background-color: #fff;
+    width: 100%;
+}
+
 /* adaptive start */
 
 @media (max-width: 1180px) {
