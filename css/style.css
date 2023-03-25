@@ -686,6 +686,10 @@ body {
     .important__list {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .tabs__content-item {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 768px) {
@@ -716,6 +720,13 @@ body {
         grid-template-columns: repeat(2, 1fr);
         gap: 40px;
     }
+}
+
+@media (max-width: 650px) {
+    .tabs__content-item {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
 }
 
 @media (max-width: 540px) {
