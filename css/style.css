@@ -810,15 +810,17 @@ body {
     .copy__nav-list {
         gap: 20px;
     }
-}
 
-@media (max-width: 440px) {
     .blog__item-title {
         margin-bottom: 10px;
     }
 
     .blog__item-link {
         margin-left: auto;
+    }
+
+    .tabs__btn {
+        flex-direction: column;
     }
 }
 
