@@ -358,7 +358,7 @@ body {
 }
 
 .card {
-    text-align: center;    
+    text-align: center;
 }
 
 .card__img {
@@ -393,7 +393,7 @@ body {
     color: #0066ff;
     border: 1px solid #0066ff;
     border-top: 0;
-    text-transform: lowercase;    
+    text-transform: lowercase;
 }
 
 
@@ -727,6 +727,15 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .tabs__btn-item {
+        font-size: 18px;
+    }
+
+    .blog__items {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
 }
 
 @media (max-width: 540px) {
@@ -800,6 +809,16 @@ body {
 
     .copy__nav-list {
         gap: 20px;
+    }
+}
+
+@media (max-width: 440px) {
+    .blog__item-title {
+        margin-bottom: 10px;
+    }
+
+    .blog__item-link {
+        margin-left: auto;
     }
 }
 
